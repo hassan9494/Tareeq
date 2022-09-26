@@ -7,6 +7,7 @@ use App\Models\CourseLesson;
 use App\Models\VideoLinkes;
 use App\Models\Voucher;
 
+use App\TeacherAccount;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -70,7 +71,13 @@ class HomeController extends Controller
         // }else{
         //     $courses = Course::where('teacher_id',$user->id)->get();
         // }
-        $vouchers= Voucher::where('user_id',$user->id)->orderBy('created_at','desc')->get();
+        if ($user->type == 'teacher'){
+            $vouchers = $user->teacherAccounts;
+        }else{
+            $vouchers= Voucher::where('user_id',$user->id)->orderBy('created_at','desc')->get();
+        }
+
+
 
         return view('frontend.user.accounting',compact('user','vouchers'));
     }
@@ -84,6 +91,16 @@ class HomeController extends Controller
         $lesson->save();
         $lesson->course->teacher->remaining += $lesson->course->session_time *( $lesson->course->teacher->hourly_price/60);
         $lesson->course->teacher->save();
+        $teacherAccount  = new TeacherAccount();
+//        $teacherAccount->type = "income";
+        $teacherAccount->amount = $lesson->course->session_time *( $lesson->course->teacher->hourly_price/60);
+        $teacherAccount->to = $lesson->course->teacher->name;
+        $teacherAccount->paid_for = "lesson ". $lesson->course->product->name;
+        $teacherAccount->user_id = $lesson->course->teacher->id;
+        $teacherAccount->lesson_id = $lesson->id;
+        $teacherAccount->note = "The Lesson Is Completed";
+        $teacherAccount->save();
+
         return redirect()->back()->with('success','Lesson Completed Successfully');
     }
 
@@ -97,6 +114,15 @@ class HomeController extends Controller
         $lesson->save();
         $lesson->course->teacher->remaining += $lesson->course->session_time *( $lesson->course->teacher->hourly_price/60);
         $lesson->course->teacher->save();
+        $teacherAccount  = new TeacherAccount();
+//        $teacherAccount->type = "income";
+        $teacherAccount->amount = $lesson->course->session_time *( $lesson->course->teacher->hourly_price/60);
+        $teacherAccount->to = $lesson->course->teacher->name;
+        $teacherAccount->paid_for = "lesson ". $lesson->course->product->name;
+        $teacherAccount->user_id = $lesson->course->teacher->id;
+        $teacherAccount->lesson_id = $lesson->id;
+        $teacherAccount->note = "The student is absent from the lesson";
+        $teacherAccount->save();
         return redirect()->back()->with('success','Lesson Completed Successfully But Student Absent');
     }
 
