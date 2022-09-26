@@ -43,10 +43,10 @@ class UsersController extends Controller
     }
 
     public function editStudent(User $user){
-//        $json_contry = file_get_contents('conteries.json');
-//        $countries = json_decode($json_contry);
+        $json_contry = file_get_contents('conteries.json');
+        $countries = json_decode($json_contry);
         //        $json_contry = file_get_contents('conteries.json');
-        $countries = Country::all();
+//        $countries = Country::all();
         return view('admin.student.edit',compact('user', 'countries'));
     }
 
@@ -125,9 +125,10 @@ class UsersController extends Controller
     public function editUser(User $user){
 
         $videoUrl = VideoLinkes::where('user_id', $user->id)->get();
-//        $json_contry = file_get_contents('conteries.json');
-        $countries = Country::all();
-
+////        $json_contry = file_get_contents('conteries.json');
+//        $countries = Country::all();
+        $json_contry = file_get_contents('conteries.json');
+        $countries = json_decode($json_contry);
         return view('admin.teacher.edit',compact('user' ,'videoUrl', 'countries'));
     }
 
