@@ -617,6 +617,7 @@ class ComposerStaticInita2ce5753c63da7367f194c5514063179
         'App\\Slider' => __DIR__ . '/../..' . '/app/Slider.php',
         'App\\Task' => __DIR__ . '/../..' . '/app/Task.php',
         'App\\TaskComment' => __DIR__ . '/../..' . '/app/TaskComment.php',
+        'App\\TeacherAccount' => __DIR__ . '/../..' . '/app/TeacherAccount.php',
         'App\\TeacherCourse' => __DIR__ . '/../..' . '/app/TeacherCourse.php',
         'App\\Team' => __DIR__ . '/../..' . '/app/Team.php',
         'App\\Testmonial' => __DIR__ . '/../..' . '/app/Testmonial.php',

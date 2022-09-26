@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\LessonChangesDate;
+use App\TeacherAccount;
 use Illuminate\Database\Eloquent\Model;
 
 class CourseLesson extends Model
@@ -16,5 +17,9 @@ class CourseLesson extends Model
 
     public function lessonChangeDate (){
         return $this->hasMany(LessonChangesDate::class,'lesson_id')->orderBy('date');
+    }
+
+    public function teacherAccount (){
+        return $this->hasOne(TeacherAccount::class,'lesson_id');
     }
 }

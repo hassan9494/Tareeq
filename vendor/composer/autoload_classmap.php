@@ -123,6 +123,7 @@ return array(
     'App\\Slider' => $baseDir . '/app/Slider.php',
     'App\\Task' => $baseDir . '/app/Task.php',
     'App\\TaskComment' => $baseDir . '/app/TaskComment.php',
+    'App\\TeacherAccount' => $baseDir . '/app/TeacherAccount.php',
     'App\\TeacherCourse' => $baseDir . '/app/TeacherCourse.php',
     'App\\Team' => $baseDir . '/app/Team.php',
     'App\\Testmonial' => $baseDir . '/app/Testmonial.php',
