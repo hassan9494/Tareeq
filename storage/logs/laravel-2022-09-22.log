@@ -1,0 +1,32 @@
+[2022-09-22 11:33:41] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-22 11:34:17] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-22 11:34:33] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-22 11:34:35] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-22 11:34:36] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-22 11:34:51] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-22 11:36:29] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 
+[2022-09-22 11:46:06] local.ERROR: Namespace declaration statement has to be the very first statement or after any declare call in the script {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Namespace declaration statement has to be the very first statement or after any declare call in the script at G:\\TarekUlarabia\\app\\Http\\Middleware\\RedirectIfAdmin.php:3)
+[stacktrace]
+#0 {main}
+"} 

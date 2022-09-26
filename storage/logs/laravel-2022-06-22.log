@@ -1,0 +1,218 @@
+[2022-06-22 01:50:10] local.ERROR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'note' at row 1 (SQL: insert into `messages` (`name`, `email`, `phone`, `note`, `updated_at`, `created_at`) values (Mike Black, no-replyPeroneni@gmail.com, 82648459937, Hi 
+ 
+I have just took a look on your SEO for  tareeqularabia.com for the ranking keywords and saw that your website could use a push. 
+ 
+We will increase your SEO metrics and ranks organically and safely, using only whitehat methods, while providing monthly reports and outstanding support. 
+ 
+Please check our services below, we offer SEO at cheap rates. 
+https://www.hilkom-digital.de/cheap-seo-packages/ 
+ 
+Start increasing your sales and leads with us, today! 
+ 
+ 
+regards 
+Mike Black
+ 
+Hilkom Digital Team 
+support@hilkom-digital.de, 2022-06-22 01:50:10, 2022-06-22 01:50:10)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 22001): SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'note' at row 1 (SQL: insert into `messages` (`name`, `email`, `phone`, `note`, `updated_at`, `created_at`) values (Mike Black, no-replyPeroneni@gmail.com, 82648459937, Hi 
+ 
+I have just took a look on your SEO for  tareeqularabia.com for the ranking keywords and saw that your website could use a push. 
+ 
+We will increase your SEO metrics and ranks organically and safely, using only whitehat methods, while providing monthly reports and outstanding support. 
+ 
+Please check our services below, we offer SEO at cheap rates. 
+https://www.hilkom-digital.de/cheap-seo-packages/ 
+ 
+Start increasing your sales and leads with us, today! 
+ 
+ 
+regards 
+Mike Black
+ 
+Hilkom Digital Team 
+support@hilkom-digital.de, 2022-06-22 01:50:10, 2022-06-22 01:50:10)) at C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 22001): SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'note' at row 1 at C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback()
+#1 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run()
+#2 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(411): Illuminate\\Database\\Connection->statement()
+#3 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Processors\\Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2690): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1353): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(839): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(804): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(667): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(795): Illuminate\\Database\\Eloquent\\Model->save()
+#10 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(1124): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(796): tap()
+#12 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1618): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1630): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 C:\\Websites\\Arabic-for-all\\app\\Http\\Controllers\\Frontend\\MessagesController.php(23): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 [internal function]: App\\Http\\Controllers\\Frontend\\MessagesController->store()
+#17 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array()
+#18 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#19 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#20 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(176): Illuminate\\Routing\\Route->runController()
+#21 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(680): Illuminate\\Routing\\Route->run()
+#22 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#23 C:\\Websites\\Arabic-for-all\\app\\Http\\Middleware\\CheckReferral.php(19): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#24 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): App\\Http\\Middleware\\CheckReferral->handle()
+#25 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Websites\\Arabic-for-all\\app\\Http\\Middleware\\Localization.php(12): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#27 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): App\\Http\\Middleware\\Localization->handle()
+#28 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#30 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#31 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#33 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#34 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\AuthenticateSession.php(39): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#36 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Session\\Middleware\\AuthenticateSession->handle()
+#37 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#39 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#40 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#41 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#42 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle()
+#43 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#45 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#46 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#48 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#49 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#51 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(682): Illuminate\\Pipeline\\Pipeline->then()
+#52 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack()
+#53 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute()
+#54 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute()
+#55 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch()
+#56 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#57 C:\\Websites\\Arabic-for-all\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(58): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#58 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle()
+#59 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#60 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#61 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#62 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#63 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#64 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#65 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#66 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#67 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#68 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#69 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#70 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle()
+#71 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#72 C:\\Websites\\Arabic-for-all\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#73 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle()
+#74 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#75 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#76 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then()
+#77 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#78 C:\\Websites\\Arabic-for-all\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle()
+#79 {main}
+"} 
+[2022-06-22 23:06:39] local.ERROR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'note' at row 1 (SQL: insert into `messages` (`name`, `email`, `phone`, `note`, `updated_at`, `created_at`) values (Edison, lucy@angloeuropeanstudbook.co.uk, 02.25.73.60.87, Good day 
+
+The New Powerful LED Flashlight is The Perfect Flashlight For Any Situation!
+
+The 3,000 Lumens & Adjustable Zoom gives you the wide field of view and brightness other flashlights don’t have.
+
+50% OFF + Free Shipping!  Get it Now: linterna.store
+
+Best Wishes, 
+
+Edison, 2022-06-22 23:06:38, 2022-06-22 23:06:38)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 22001): SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'note' at row 1 (SQL: insert into `messages` (`name`, `email`, `phone`, `note`, `updated_at`, `created_at`) values (Edison, lucy@angloeuropeanstudbook.co.uk, 02.25.73.60.87, Good day 
+
+The New Powerful LED Flashlight is The Perfect Flashlight For Any Situation!
+
+The 3,000 Lumens & Adjustable Zoom gives you the wide field of view and brightness other flashlights don’t have.
+
+50% OFF + Free Shipping!  Get it Now: linterna.store
+
+Best Wishes, 
+
+Edison, 2022-06-22 23:06:38, 2022-06-22 23:06:38)) at C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 22001): SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'note' at row 1 at C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback()
+#1 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run()
+#2 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(411): Illuminate\\Database\\Connection->statement()
+#3 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Processors\\Processor.php(32): Illuminate\\Database\\Connection->insert()
+#4 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2690): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId()
+#5 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1353): Illuminate\\Database\\Query\\Builder->insertGetId()
+#6 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(839): Illuminate\\Database\\Eloquent\\Builder->__call()
+#7 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(804): Illuminate\\Database\\Eloquent\\Model->insertAndSetId()
+#8 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(667): Illuminate\\Database\\Eloquent\\Model->performInsert()
+#9 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(795): Illuminate\\Database\\Eloquent\\Model->save()
+#10 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(1124): Illuminate\\Database\\Eloquent\\Builder->Illuminate\\Database\\Eloquent\\{closure}()
+#11 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(796): tap()
+#12 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(23): Illuminate\\Database\\Eloquent\\Builder->create()
+#13 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1618): Illuminate\\Database\\Eloquent\\Model->forwardCallTo()
+#14 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1630): Illuminate\\Database\\Eloquent\\Model->__call()
+#15 C:\\Websites\\Arabic-for-all\\app\\Http\\Controllers\\Frontend\\MessagesController.php(23): Illuminate\\Database\\Eloquent\\Model::__callStatic()
+#16 [internal function]: App\\Http\\Controllers\\Frontend\\MessagesController->store()
+#17 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array()
+#18 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction()
+#19 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#20 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(176): Illuminate\\Routing\\Route->runController()
+#21 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(680): Illuminate\\Routing\\Route->run()
+#22 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#23 C:\\Websites\\Arabic-for-all\\app\\Http\\Middleware\\CheckReferral.php(19): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#24 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): App\\Http\\Middleware\\CheckReferral->handle()
+#25 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Websites\\Arabic-for-all\\app\\Http\\Middleware\\Localization.php(12): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#27 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): App\\Http\\Middleware\\Localization->handle()
+#28 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#30 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#31 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#33 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#34 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\AuthenticateSession.php(39): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#36 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Session\\Middleware\\AuthenticateSession->handle()
+#37 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#39 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#40 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#41 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#42 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle()
+#43 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#45 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#46 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#48 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#49 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#51 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(682): Illuminate\\Pipeline\\Pipeline->then()
+#52 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack()
+#53 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute()
+#54 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute()
+#55 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch()
+#56 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#57 C:\\Websites\\Arabic-for-all\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(58): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#58 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle()
+#59 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#60 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#61 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#62 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#63 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#64 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#65 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#66 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#67 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#68 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#69 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#70 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle()
+#71 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#72 C:\\Websites\\Arabic-for-all\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#73 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle()
+#74 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#75 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}()
+#76 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then()
+#77 C:\\Websites\\Arabic-for-all\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#78 C:\\Websites\\Arabic-for-all\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle()
+#79 {main}
+"} 

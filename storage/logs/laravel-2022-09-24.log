@@ -1,0 +1,70 @@
+[2022-09-24 19:36:26] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+[stacktrace]
+#0 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'D:\\\\projects\\\\Tar...', 122, Array)
+#1 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+#2 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+#3 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\projects\\TarekUlarabia\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2022-09-24 19:36:47] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+[stacktrace]
+#0 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'D:\\\\projects\\\\Tar...', 122, Array)
+#1 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+#2 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+#3 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\projects\\TarekUlarabia\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2022-09-24 19:39:35] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+[stacktrace]
+#0 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'D:\\\\projects\\\\Tar...', 122, Array)
+#1 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+#2 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+#3 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\projects\\TarekUlarabia\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2022-09-24 19:42:20] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+[stacktrace]
+#0 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'D:\\\\projects\\\\Tar...', 122, Array)
+#1 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+#2 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+#3 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\projects\\TarekUlarabia\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2022-09-24 19:54:02] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+[stacktrace]
+#0 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'D:\\\\projects\\\\Tar...', 122, Array)
+#1 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+#2 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+#3 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\projects\\TarekUlarabia\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\projects\\TarekUlarabia\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
