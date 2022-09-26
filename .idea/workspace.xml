@@ -144,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664046813154</updated>
       <workItem from="1664046814351" duration="887000" />
-      <workItem from="1664047837069" duration="23621000" />
+      <workItem from="1664047837069" duration="24415000" />
     </task>
     <servers />
   </component>
@@ -172,5 +172,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1664179287657" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CourseController.php</url>
+          <line>169</line>
+          <properties>
+            <option name="className" value="\App\Http\Controllers\CourseController" />
+            <option name="methodName" value="changeDates" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
